@@ -38,6 +38,8 @@ section{
     padding: 20px;
     box-shadow: 0 25px 90px -35px rgb(0 0 0 / 50%);
     box-sizing: border-box;
+    margin-top: 25px;
+    border-radius: 20px;
 }
 .food-item-rapper{
     max-width: 1200px;
@@ -63,9 +65,17 @@ img{
     justify-content:space-around;
     background:#fff;
     width: 100%;
+    border-radius: 20px;
     
 }
 .bonus-rapper h1{
     margin: 0;
 }   
+.footer{
+    text-align: center;
+    color: white;
+    background-color: black ;
+    padding: 30px;
+    margin-top: 40px;
 
+}
