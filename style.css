@@ -1,0 +1,51 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 45px;
+}
+.red-color{
+    color: red;
+}
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding: 2px;
+}
+.half-width img{
+    width: 100%;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orchid,blue) ;
+    color:orange;
+    font-weight: 700;
+    padding: 10px 30px;
+    border-radius: 6px;
+}
+.about-me{
+    background-image: url(images/shapes/Group\ 8447.png);
+
+}
+.food-single-img{
+    display:inline-block;
+    width: 30%;
+    margin: 0 1.5%;
+}
+.food-item-rapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.padding-left100{
+    padding-left: 100px;
+}
