@@ -4,183 +4,329 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> assignment site </title>
-    <!--------------------------
-       icon-fontawesome-link
-    --------------------------->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <!----------------
+    icon-fontawesome-link
+    ------------>
     <script src="https://kit.fontawesome.com/794cc8154d.js" crossorigin="anonymous"></script>
-    <!-----------------
-         css link
-    ------------------->
-    <link rel="stylesheet" href="style.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!--link-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
 </head>
 
 <body>
-    <!-----------------------
-         header start
-    ------------------------>
-    <header>
-        <div class="manu-item">
+    <!---header--->
+    <header class="first-section">
+        <section class="container my-5 mx-auto py-5">
+            <div class="container">
+                <div class="row d-flex align-items-center  justify-content-between">
+                    <div class="col-12 col-lg-4">
+                        <p class="text-white fw-light">Computer-controlled digital transistorized with electronic
+                            advance</p>
+                        <h1 class="text-white text-semi">Honda CBR 300R</h1>
+                        <p class="text-white fw-light py-2">Amet minim mollit non deserunt ullamco est sit aliqua
+                            dolor do amet sint. Velit officia consequat duis enim velit
+                            mollit. Exercitation veniam consequat sunt nostrud amet</p>
 
-            <div class="nav-area">
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Clubs</a></li>
-                        <li><a href="#">World Cup 2023</a></li>
-                        <li><a href="#">Upcoming Matches</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                <span class="icon-title">
-                    <i class="fas fa-sign-in-alt"></i>
-                    <a class="icon-text" href="#" target="black">Login</a>
-                </span>
-            </div>
-            <div class="top-banner">
-                <div class="banner-style">
-                    <h1>Conmebol Copa America 2021</h1>
-                    <div class="some-button">
-                        <a class="button-link" href="#" target="black"> Watch live<i class="fas fa-arrow-right"></i></a>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        A motorcycle, often called a motorbike, bike, or cycle, is a two- or
+                                        three-wheeled motor vehicle.
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--modal end-->
+                        <button type="button" class="btn honda-btn px-5 bg-danger text-white" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Purchase
+                        </button>
+                    </div>
+                    <div class="col-12 col-lg-6 py-3">
+                        <img class="img-fluid" src="images/header-bike.png" alt="">
                     </div>
                 </div>
-                <div class="banner-item">
-                    <img src="images/banner.png" alt="">
-                </div>
+        </section>
+    </header>
 
+    <!---bike--->
+
+    <section class="container my-5 mx-auto py-5">
+        <div class="row d-flex align-items-center gx-3">
+            <h1 class="text-center ">Fetured Bikes 2021</h1>
+            <p class="text-danger text-center">Best bike collection</p>
+            <div class="col-lg-4 my-5 d-flex justify-content-center">
+                <img class="w-75 grayscale" src="images/header-bike.png" alt="">
+            </div>
+            <div class="col-lg-4 my-5 d-flex justify-content-center">
+                <img class="w-75" src="images/header-bike.png" alt="">
+            </div>
+
+            <div class="col-lg-4 my-5 d-flex justify-content-center">
+                <img class="w-75 grayscale" src="images/header-bike.png" alt="">
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!----
+        card------>
+    <section class="container my-5 mx-auto py-5">
+        <h1 class="text-center">Happy <span class="text-danger">Clients says</span></h1>
+        <div class="row row-col-1 row-col-md-3 col-lg-12 py-5 g-4">
+            <div class="col col-lg-4 col-md-12">
+                <div class="card h-100 p-3 rounded">
+                    <img class="w-75 card-img mx-auto d-flex justify-content-center" src="images/user-1.png" alt="">
+                    <div class="card-body text-center">
+                        <p class="card-text">Slate helps you see how many more days you need to work to reach your
+                            financial goal for the month and year.</p>
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <br>
+                        <h5 class="text-info">Regina Miles</h5>
+                        <br>
+                        <h5>Banker</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-12">
+                <div class="card h-100 p-3 rounded">
+                    <img class="card-img w-75 mx-auto d-flex justify-content-center" src="images/user-2.png" alt="">
+                    <div class="card-body text-center">
+                        <p class="card-text">Slate helps you see how many more days you need to work to reach your
+                            financial goal for the month and year.</p>
+                        <div>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <br>
+                        <h5 class="text-info">Regina Miles</h5>
+                        <br>
+                        <h5>Banker</h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-4 col-md-12">
+                <div class="card h-100 p-3 rounded order-first md:order-none">
+                    <img class="card-img w-75 d-flex justify-content-center mx-auto rounded-circle"
+                        src="images/user-1.png" alt="">
+                    <div class="card-body text-center">
+                        <p class="card-text">Slate helps you see how many more days you need to work to reach your
+                            financial goal for the month and year.</p>
+                        <div class="">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <br>
+                        <h5 class="text-info">Regina Miles</h5>
+                        <br>
+                        <h5>Banker</h5>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+    <!-----question----->
+    <section class="container text-center my-5 mx-auto py-3">
+
+        <div class="d-md-flex popping justify-content-center align-items-center py-5">
+            <h1>Frequently Asked <span class="text-danger"> Questions</span></h1>
+        </div>
+
+        <div class="row align-items-center">
+            <div class="col-md-12 col-lg-6 mx-auto">
+                <img src="images/faq.png" alt="" class="img-fluid w-75">
+            </div>
+            <div class="col-md-12 col-lg-6 ">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item border mt-3">
+                        <h2 class="accordion-header" id="headingTwo ">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseone">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </button>
+                        </h2>
+                        <div id="collapseone" class="accordion-collapse collapse show" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                    signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your
+                                    bike. This will help you be a more focused and legally compliant bike rider.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border mt-3">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsetwo">
+                                How can I tell if my helmet is old and I need a
+                                new one?
+                            </button>
+                        </h2>
+                        <div id="collapsetwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                    signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your
+                                    bike. This will help you be a more focused and legally compliant bike rider.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border mt-3">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsethree">
+                                My bike has been in storage is it safe to ride?
+                            </button>
+                        </h2>
+                        <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                    signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your
+                                    bike. This will help you be a more focused and legally compliant bike rider.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item border mt-3">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefour">
+                                What rules should I follow when riding my bike?
+                            </button>
+                        </h2>
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Safety First! Always obey the rules of the road. Obey all traffic signals,
+                                    signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your
+                                    bike. This will help you be a more focused and legally compliant bike rider.
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
         </div>
-    </header>
-    <main>
-        <section class="continer">
-            <div class="top-players">
-                <div class="players">
-                    <div class="player">
-                        <img src="images/players/player-1.png" alt="">
-                        <h2 class="player-name">Neymar Jr</h2>
-                        <p class="player-info">Neymar, in full Neymar da Silva Santos Jr Brazilian football player who
-                            was one of the most prolific scorers in his country's storied football history</p>
+
+    </section>
+
+    <!---Extra section-->
+    <div class="container py-5">
+        <section class="">
+            <h1 class="text-success text-center">New Fetured Bikes</h1><br>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="img-fluid" src="images/bike-1.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="player">
-                        <img src="images/players/player-2.png" alt="">
-                        <h2 class="player-name">Lionel Messi</h2>
-                        <p class="player-info">Lionel Andrés Messi is an Argentine professional footballer who plays as
-                            a forward or an attacking midfielder and captains the Argentina national team.</p>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="images/bike-2.png" class="d-block w-100" alt="...">
                     </div>
-                    <div class="player">
-                        <img src="images/players/player-3.png" alt="">
-                        <h2 class="player-name">Cristiano Ronaldo</h2>
-                        <p class="player-info">Cristiano Ronaldo, in full Cristiano Ronaldo dos Santos Aveiro Portuguese
-                            football forward who was one of the greatest players of his generation.</p>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-4.png" alt="">
-                        <h2 class="player-name">Paulo Dybala</h2>
-                        <p class="player-info">Paulo Exequiel Dybala is an Argentine
-                            professional footballer who plays as a forward for Serie A club Juventus and the Argentina
-                            national team.</p>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-5.png" alt="">
-                        <h2 class="player-name">Mesut Ozil </h2>
-                        <p class="player-info">Mesut Özil is a German professional footballer who plays as an attacking
-                            midfielder for Süper Lig club Fenerbahçe.</p>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-6.png" alt="">
-                        <h2 class="player-name">Mauro Icardi </h2>
-                        <p class="player-info">Mauro Emanuel Icardi is an Argentine professional footballer who plays as
-                            a striker for Ligue 1 club Paris Saint-Germain and the Argentina national team</p>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-7.png" alt="">
-                        <h2 class="player-name">Di Maria</h2>
-                        <p class="player-info">Ángel Fabián Di María is an Argentine professional footballer who plays
-                            for Ligue 1 club Paris Saint-Germain and the Argentina national team.</p>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-8.png" alt="">
-                        <h2 class="player-name">Kylian Mbappé</h2>
-                        <p class="player-info">Kylian Mbappé Lottin is a French professional footballer who plays as a
-                            forward for Ligue 1 club Paris Saint-Germain and the France national team.</p>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-9.png" alt="">
-                        <h2 class="player-name">Mohamed Salah</h2>
-                        <p class="player-info">Mohamed Salah Hamed Mahrous Ghaly is an Egyptian professional footballer
-                            who plays as a forward for Premier League club Liverpool and captains the Egypt national
-                            team.</p>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-10.png" alt="">
-                        <h2 class="player-name">Harry Kane</h2>
-                        <p class="player-info">Harry Edward Kane MBE is an English professional footballer who plays as
-                            a striker for Premier League club Tottenham Hotspur and captains the England national team.
-                        </p>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-11.png" alt="">
-                        <h2 class="player-name">Kevin De Bruyne</h2>
-                        <p class="player-info">Kevin De Bruyne is a Belgian professional footballer who plays as a
-                            midfielder for Premier League club Manchester City, where he is vice-captain, and the
-                            Belgium national team
-                        </p>
-                    </div>
-                    <div class="player">
-                        <img src="images/players/player-12.png" alt="">
-                        <h2 class="player-name">Philippe Coutinho</h2>
-                        <p class="player-info">Philippe Coutinho Correia is a Brazilian professional footballer who
-                            plays as an attacking midfielder or winger for Spanish club Barcelona and the Brazil
-                            national team.</p>
+                    <div class="carousel-item">
+                        <img class="img-fluid" src="images/bike-3.png" class="d-block w-100" alt="...">
                     </div>
                 </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
         </section>
+    </div>
 
-        <!------------------------
-             All Highlights
-        -------------------------->
-        <section class="continer">
-            <div class="highlights-items">
-                <div class="highlihts">
-                    <div class="highliht">
-                        <h1>All Highlights Copa America 21</h1>
-                        <p class="banner-title">Copa América or CONMEBOL Copa América,it is the main men's football
-                            tournament contested among
-                            national teams from South America.</p>
-                        <div class="button-link">
-                            <a href="#" target="black">watch now<i class="fas fa-arrow-right"></i></a>
+    <!---Extra section part 2-->
+    <h1 class="text-success py-5">Progress Bar</h1>
+    <div class="progress" style="height: 1px;">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+    <div class="progress" style="height: 20px;">
+        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100"></div>
+    </div>
+    <!-----footer-->
+    <section class="footer">
+        <footer>
+
+            <div class="container p-4">
+                <div class="row text-white justify-content-between align-items-center col-md-12">
+                    <div class="col-lg-3 col-md-4 text-capitalize pb-3 pt-4">
+                        <div class="d-flex manrope">
+                            <h5><a class="text-decoration-none text-white pe-3" href="">downlaod now</a></h5>
+                            <h5><a class="text-decoration-none text-white" href="">licence</a></h5>
                         </div>
-
+                        <div class="d-md-flex manrope pt-3 pb-5">
+                            <h5><a class="text-decoration-none text-white pe-3" href="">about</a></h5>
+                            <h5><a class="text-decoration-none text-white pe-3" href="">features</a></h5>
+                            <h5><a class="text-decoration-none text-white pe-3" href="">pricing</a></h5>
+                            <h5><a class="text-decoration-none text-white pe-3" href="">careers</a></h5>
+                            <h5><a class="text-decoration-none text-white pe-3" href="">Help</a></h5>
+                        </div>
+                        <small class="manrope muted-color-text">&copy; 2020 . All rights reserved</small>
                     </div>
-                    <div class="highliht-banner">
-                        <img src="images/match.png" alt="">
+                    <div class="col-lg-2 col-md-12 text-capitalize">
+                        <h5 class="manrope">Get the App</h5>
+                        <div>
+                            <img class="img-fluid py-3" src="images/App-Store-Logo.png" alt="">
+                        </div>
+                        <div>
+                            <img class="img-fluid" src="images/en_badge_web_generic.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-----------------
-        footer
-        ---------------->
 
-        <footer class="footer-area">
-            <section class="footer-section">
-                <div class="main-footer">
-                    <img src="images/Logo.png" alt="">
-                    <div class="social-logo">
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-whatsapp"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                    </div>
-                    <p>Copyright <i class="far fa-copyright"></i>2022 Football</p>
-                </div>
-            </section>
         </footer>
+    </section>
 
 
-    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

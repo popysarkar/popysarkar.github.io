@@ -1,0 +1,11 @@
+.first-section{
+    background-color: rgb(9, 58, 58);
+}
+
+.footer{
+    background-color: rgb(1, 17, 39);
+}
+.grayscale{
+    filter: grayscale(100%);
+}
+
